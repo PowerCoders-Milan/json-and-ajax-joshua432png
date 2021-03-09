@@ -10,10 +10,10 @@ console.log(object);
 var myjson = JSON.stringify(object);
 console.log(myjson);
 
-var newobj = JSON.parse(myjson);
-console.log(newobj);
+var new_obj = JSON.parse(myjson);
+console.log(new_obj);
 
-var values = Object.values(newobj);
+var values = Object.values(new_obj);
 for (var elements of values) {
     console.log(elements);
 }
